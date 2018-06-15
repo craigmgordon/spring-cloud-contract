@@ -66,6 +66,9 @@
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<version>1.2.4.RELEASE</version>
 				<extensions>true</extensions>
+				<configuration>
+					<baseClassForTests>com.example.creditcheckservice.BaseContractTest</baseClassForTests>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
